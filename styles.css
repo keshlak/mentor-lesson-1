@@ -1,0 +1,66 @@
+:root {
+  --main-color: #ffffff;
+  --accent-color: #4985ff;
+  --main-text-color: #999999;
+  --h-text-color: #323232;
+}
+body {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  line-height: 1.58;
+  margin: 0%;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--h-text-color);
+}
+
+p {
+  color: var(--main-text-color);
+}
+.nav-list-item .link {
+  color: var(--main-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-list-item .link:hover,
+.nav-list-item .link:focus {
+  color: var(--accent-color);
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.page-header {
+  background-color: grey;
+}
+
+.hero {
+  background-color: grey;
+}
+
+.hero-text {
+  font-weight: 500;
+  line-height: 1.25;
+  color: var(--main-color);
+}
+
+.btn {
+  width: 200px;
+  height: 45px;
+  color: var(--main-color);
+  background-color: var(--accent-color);
+  font-weight: 500;
+  line-height: 1.25;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
